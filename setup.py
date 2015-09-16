@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='address',
+    name='pyaddress',
     version='0.1.1',
     url='https://github.com/SwoopSearch/pyaddress',
     author='Swoop Search LLC, Josh Gachnang, Rob Jauquet',
@@ -9,9 +9,9 @@ setup(
     description='address is an address parsing library, taking the guesswork out of using addresses in your applications.',
     long_description=open('README.rst', 'rt').read(),
     #data_files=[('', ['README.rst','pyaddress/cities.csv', 'pyaddress/suffixes.csv', 'pyaddress/streets.csv', 'pyaddress/tests.py', 'pyaddress/test_list.py'])],
-    packages=['address'],
-    package_dir={'address': 'address'},
-    package_data={'address': ['cities.csv', 'streets.csv', 'suffixes.csv']},
+    packages=['pyaddress'],
+    package_dir={'pyaddress': 'pyaddress'},
+    package_data={'pyaddress': ['cities.csv', 'streets.csv', 'suffixes.csv']},
     classifiers=[
         "License :: OSI Approved :: BSD License",
         "Natural Language :: English",
